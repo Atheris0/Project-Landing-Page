@@ -91,7 +91,7 @@ body {
     font-weight: 900;
     margin: 40px 0;
 }
-/* this will disappear */
+
 .cards {
     display: flex;
     justify-content: center;
@@ -126,7 +126,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* Align items to the start */
+    align-items: center;
     padding: 100px;
 }
 
@@ -147,9 +147,8 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #1f2937;
-    align-self: flex-end; /* Align the signature to the end */
-    text-align: right;    /* Align the text to the right */
-    width: 800px;         /* Same width as quote-text for consistency */
+    align-self: flex-end;
+    text-align: right;        
 }
 
 .last {
